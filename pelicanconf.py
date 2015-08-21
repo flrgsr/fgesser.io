@@ -12,6 +12,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
+MARKUP = ('md', 'ipynb')
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -37,13 +39,14 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['liquid_tags.notebook']
+PLUGINS = ['liquid_tags.notebook', 'pelican-ipynb']
 
 # For iPython Notebook
 # EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 
-THEME = "pelican-themes/built-texts"
+#THEME = "pelican-themes/built-texts"
+THEME = "pelican-themes/flex"
 
 # SITEURL = "http://fgesser.io"
 DISQUS_SITENAME = "fgesserio"

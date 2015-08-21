@@ -1,4 +1,4 @@
-evaluating community detection results
+Evaluating community detection results
 ######################################
 
 :date: 2015-7-15 20:06

@@ -1,4 +1,4 @@
-implementing infomap
+The Map Equation
 ####################
 
 :date: 2015-7-22 20:14
@@ -9,9 +9,9 @@ implementing infomap
 :status: published
 
 
-********************
-Implementing Infomap
-********************
+*********************************************************
+Infomap: Another contender in the community detection zoo
+*********************************************************
 
 
 In previous entries it was already mentioned:
